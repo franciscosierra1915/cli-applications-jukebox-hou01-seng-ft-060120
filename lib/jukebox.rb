@@ -31,7 +31,7 @@ def play(songs)
   
   songs.each_with_index do |val, index|
     if index+1 == users_song || val == users_song
-      puts "Playing #{index}"
+      puts "Playing #{index+1}"
     else 
       puts "Invalid input, please try again"
     end
