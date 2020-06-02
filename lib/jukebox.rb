@@ -32,7 +32,7 @@ def play(songs)
     if users_song == val
       puts "Playing #{val}"
     end
-    if users_song == index
+    if users_song == index + 1
       puts "Playing #{val}"
     end
   end
