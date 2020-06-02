@@ -28,7 +28,6 @@ end
 def play(songs)
   
   new_list = songs.each_with_index {|val, index| puts "#{index + 1}. #{val}"}
-  new_list
   puts "Please enter a song name or number:"
   
   users_song = gets.strip
