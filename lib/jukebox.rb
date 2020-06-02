@@ -33,7 +33,7 @@ def play(songs)
     if index+1 == users_song || val == users_song
       puts "Playing #{val}"
     else 
-      puts "Invalid input, please try again"
+      puts "Please enter a song name or number:"
     end
   end
 end
