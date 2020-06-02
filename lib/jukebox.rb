@@ -32,14 +32,10 @@ def play(songs)
   users_song = gets.strip
   
   new_list.each_with_index do |val, index|
-    if index+1 == users_song
-      puts "Playing #{val}"
-    else if
-      val == users_song
+    if index+1 == users_song || val == users_song
       puts "Playing #{val}"
     else 
       puts "Invalid input, please try again"
-    end
     end
   end
 end
