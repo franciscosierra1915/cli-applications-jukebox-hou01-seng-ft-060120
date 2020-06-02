@@ -25,7 +25,7 @@ def list(songs)
     new_list
 end
 
-def play(list)
+def play(songs)
   puts "Please enter a song name or number:"
   users_song = gets.strip
   
