@@ -28,6 +28,7 @@ end
 def play(songs)
   puts "Please enter a song name or number:"
   users_song = gets.strip
+  
   songs.to_enum.with_index(1) do |val, index|
     
     if users_song == val
