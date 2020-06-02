@@ -33,7 +33,12 @@ def play(songs)
   
   new_list.each_with_index do |val, index|
     if index+1 == users_song
-      puts "Yaya"
+      puts "Playing #{val}"
+    else 
+      val == users_song
+      puts "Playing #{val}"
+    else 
+      puts 
     end
   end
 end
