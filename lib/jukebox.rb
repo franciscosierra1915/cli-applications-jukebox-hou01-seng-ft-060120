@@ -38,7 +38,7 @@ def play(songs)
       val == users_song
       puts "Playing #{val}"
     else 
-      puts 
+      puts "Invalid input, please try again"
     end
   end
 end
