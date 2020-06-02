@@ -34,7 +34,7 @@ def play(songs)
   new_list.each_with_index do |val, index|
     if index+1 == users_song
       puts "Playing #{val}"
-    elseif 
+    else if
       val == users_song
       puts "Playing #{val}"
     else 
